@@ -1,0 +1,67 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.image {
+  height: 250px;
+  width: 300px;
+  border-radius: 170px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.update {
+  background-color: #007bff;
+  color: #fff;
+  height: 35px;
+  width: 140px;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 14px;
+}
+.delete {
+  background-color: #ff0000;
+  color: #fff;
+  height: 35px;
+  width: 140px;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 14px;
+}
+span {
+  font-weight: bold;
+}
+p {
+  margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .profile {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .image {
+    height: 200px;
+    width: 250px;
+  }
+  .update {
+    width: 110px;
+    height: 31px;
+  }
+  .delete {
+    width: 110px;
+    height: 31px;
+  }
+  .full-name {
+    font-size: 27px;
+  }
+}
